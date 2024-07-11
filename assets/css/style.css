@@ -696,7 +696,37 @@ h6 {
 #speakers {
   padding: 60px 0 30px 0;
 }
+/* CSS (in an external file, e.g. styles.css) */
+.apply-btn {
+  background-color: #FF3737;
+  color: #FFFFFF;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
 
+.apply-btn:hover {
+  background-color: #FF6347;
+  box-shadow: 0 0 10px rgba(55, 75, 255, 0.5);
+  color:cadetblue;
+}
+
+.apply-link {
+  background-color: #FF3737;
+  color: #FFFFFF;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.apply-link:hover {
+  background-color: #FF3737;
+  box-shadow: 0 0 10px rgba(75, 55, 255, 0.5);
+  color:cadetblue;
+}
 
 #speakers .speaker {
   position: relative;
